@@ -39,7 +39,7 @@ main{
 }
 
 .button_div{
-    padding: 15px 485px;    margin: 30px 10px 1px 30px;
+    padding: 15px 512px;    margin: 30px 10px 1px 30px;
     background-color: white;
     display: inline-block;
     border-top-left-radius: 5px;
@@ -50,14 +50,20 @@ main{
 ul{
     list-style-type: none;
 }
+ol{
+    list-style-type: none;
+}
 .list{
-    padding: 20px 445px;
     margin: 1px 10px 30px 30px;
     background-color: white;
     display: inline-block;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     line-height: 1.6;
+    width: 1178px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .attachment{
