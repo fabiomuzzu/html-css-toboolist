@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
 
 /* CSS dell'header */
@@ -20,12 +21,26 @@
 button{
     border-radius: 5px;
     padding: 5px;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
+    color: lightgrey;
 }
 
 #add_task{
     background-color: #4d98fa;
     color: white;
+}
+#add_section{
+    background-color: white;
+}
+
+
+.button_div{
+    padding: 15px 925px 10px 100px;    
+    margin: 30px 10px 1px 30px;
+    background-color: white;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 /* CSS del main */
@@ -36,14 +51,6 @@ main{
 .main_container{
     max-width: 1500px;
     margin: 0 auto;
-}
-
-.button_div{
-    padding: 15px 512px;    margin: 30px 10px 1px 30px;
-    background-color: white;
-    display: inline-block;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 /* CSS della lista */
@@ -98,4 +105,36 @@ ol{
 
 .sales{
     background-color: rgb(150, 214, 0);
+}
+
+/* CSS Frecce sostitutive DOT OL*/
+.down_arrow{
+    display: inline-block;
+    font-size: small;
+}
+
+/* CSS fail & done sostitutivo DOT UL */
+.done_check{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    color: green;
+    text-align: center;
+    padding: 2px;
+    vertical-align: middle;
+    border: 1px solid green;
+    font-size: x-small;
+}
+.fail_check{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    color: red;
+    text-align: center;
+    padding: 2px;
+    vertical-align: middle;
+    border: 1px solid red;
+    font-size: x-small;
 }
