@@ -16,6 +16,13 @@
     vertical-align: middle;
 }
 
+/* CSS dei button */
+button{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
 #add_task{
     background-color: #4d98fa;
     color: white;
@@ -32,14 +39,57 @@ main{
 }
 
 .button_div{
-    padding: 15px 500px;    margin: 30px 10px 1px 30px;
-    background-color: blue;
+    padding: 15px 485px;    margin: 30px 10px 1px 30px;
+    background-color: white;
     display: inline-block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.list {
+/* CSS della lista */
+ul{
+    list-style-type: none;
+}
+.list{
     padding: 20px 445px;
     margin: 1px 10px 30px 30px;
-    background-color: red;
+    background-color: white;
     display: inline-block;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 1.6;
+}
+
+.attachment{
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: xx-small;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+
+.editorial{
+    background-color: #4d98fa;
+}
+
+.goals{
+    background-color: darkorchid;
+}
+
+.recruiting{
+    background-color: darkolivegreen;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: rgb(150, 214, 0);
 }
